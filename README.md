@@ -9,3 +9,7 @@ cat file1.txt | tail -n 40 > file2.txt && head -n 10 file2.txt > file3.txt \
 && sort file3.txt | uniq -c > file3.txt
 </code>
 </pre>
+## Результат работы
+<img src="result.png"></img>
+## Заметки
+Генерировал исходный файл на каком-то сайте, повторяется по 56 строк, в `file3.txt` из-за этого все строки получаются неповторяющимися.
